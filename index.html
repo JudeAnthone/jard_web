@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== UNICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Jard</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+
+        <div class="nav__logo-section">
+          <a href="index.html">
+            <img src="assets/img/logo.png" class="nav__logo-img" />
+          </a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+            <li><a href="#about" class="nav__link">About</a></li>
+
+            <li><a href="#services" class="nav__link">Services</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a
+            href=" https://www.facebook.com/profile.php?id=100004826983448"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a
+            href=" https://www.instagram.com/jardurf/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a
+            href=" https://www.linkedin.com/in/jude-anthone-duarte-750288326/"
+            target="_blank"
+            class="nav__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle1">Hello There!, I'm </span>
+            <h1 class="home__title">JA Duarte, <span>CS Student. </span></h1>
+            <span class="home__subtitle2">From the Phillippines </span>
+          </div>
+          <img src="assets/img/new_home.png" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/aboutme_new.png" alt="" class="about__img" />
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              I'm a 2nd-year Computer Science Student from "Eulogio Amang
+              Institute of Science and Technology", specializing in software
+              engineering and developing websites using HTML, CSS, and
+              JavaScript.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills"
+                >Main Skills</span
+              >
+
+              <span class="tabs__btn" data-target="#experience">
+                Experience</span
+              >
+
+              <span class="tabs__btn" data-target="#education">
+                Education
+              </span>
+            </div>
+
+            <!--=============== 1st TAB Main Skills ===============-->
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Professional Tambay</span> - Sa Bahay
+                    <span>I'm still studying, and grinding for my future.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Professional Tambay</span> - Sa Bahay
+                    <span>I'm still studying, and grinding for my future.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Professional Tambay</span> - Sa Bahay
+                    <span>I'm still studying, and grinding for my future.</span>
+                  </p>
+                </div>
+              </div>
+
+              <!--=============== 2ND TAB Experience ===============-->
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>College Student</span> - EARIST-Manila
+                    <span>2023 - Current</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Service Crew</span> - Jollibee
+                    <span>2022 - 2023.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Sr. HighSchool Student</span> - PHINMA-SJC
+                    <span>2021-2023.</span>
+                  </p>
+                </div>
+              </div>
+
+              <!--=============== 3RD TAB Education===============-->
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>BS in Computer Science</span> - EARIST, Manila.
+                    <span>2023</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Information and Communication Technology</span> -
+                    PHINMA-SJC.
+                    <span>2022.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Junior HighSchool</span> - Carlos L. Albert
+                    HighSchool.
+                    <span>2017</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Services Offered</h2>
+        <p class="section__description">
+          This simple projects of mine is just the basics. This is definetely be
+          continued or improved for years.
+        </p>
+
+        <div class="service__container container grid">
+          <div class="services__item">
+            <i class="uil uil-browser services__icon"></i>
+            <h3 class="services__title">Web Develoment</h3>
+            <p class="services_description">
+              Offers service about Web Develoment and creating styles with it.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-monitor services__icon"></i>
+            <h3 class="services__title">Programming</h3>
+            <p class="services_description">
+              Makes programming activities and projects with different
+              programming languages.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-notes services__icon"></i>
+            <h3 class="services__title">Documents</h3>
+            <p class="services_description">
+              Accepts different microsoft office work.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-video services__icon"></i>
+            <h3 class="services__title">Video Editing</h3>
+            <p class="services_description">
+              Transform your ordinary videos into something that blows your
+              mind.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-camera services__icon"></i>
+            <h3 class="services__title">Photograhy</h3>
+            <p class="services_description">
+              Captures variety of scenery that human experiences daily.
+            </p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-graduation-cap services__icon"></i>
+            <h3 class="services__title">Academic Servant</h3>
+            <p class="services_description">
+              Accepts school works commision that aims to help student who's
+              under pressure.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grids">
+
+  <div class="footer__logo-section">
+   <a href="index.html">
+    <img src="assets/img/logo.png" class="footer__logo-img" alt="Logo" />
+   </a>
+  </div>
+
+
+        <div class="footer__socials">
+          <a
+            href=" https://www.facebook.com/profile.php?id=100004826983448"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-facebook-f"></i>
+          </a>
+
+          <a
+            href=" https://www.instagram.com/jardurf/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a
+            href=" https://www.linkedin.com/in/jude-anthone-duarte-750288326/"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="uil uil-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="footer__copy">
+          <p>&copy; 2024. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
