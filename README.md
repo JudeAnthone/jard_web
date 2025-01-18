@@ -1,1 +1,5 @@
-THIS IS THE PAGE REPO (USE THIS FOR A FRIEND THAT MIGHT WANT TO VIEW YOU WEBSITE)
+HELLO! 
+
+This repo is for my first Portfolio Website that I've made using vanila HTML, CSS, and Java Script. 
+
+Showcase my basic skills on the fundamentals of web development. 
